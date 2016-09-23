@@ -24,16 +24,21 @@
     </entry>
     
     <entry>
-      <title><![CDATA[9.19活动管理系统前端更改内容]]></title>
+      <title><![CDATA[活动管理系统前端更改内容]]></title>
       <url>http://archmage.site/2016/09/20/9-19%E6%B4%BB%E5%8A%A8%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%89%8D%E7%AB%AF%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9/</url>
-      <content type="html"><![CDATA[<h1 id="学生、教师、领导-个人中心修改部分"><a href="#学生、教师、领导-个人中心修改部分" class="headerlink" title="学生、教师、领导 个人中心修改部分"></a>学生、教师、领导 个人中心修改部分</h1><h2 id="css"><a href="#css" class="headerlink" title="css:"></a>css:</h2><pre><code>.join-item  .join-item:hover  .response  .response:hover
+      <content type="html"><![CDATA[<h1 id="学生、教师、领导-个人中心修改部分"><a href="#学生、教师、领导-个人中心修改部分" class="headerlink" title="学生、教师、领导 个人中心修改部分"></a>学生、教师、领导 个人中心修改部分</h1><h2 id="css"><a href="#css" class="headerlink" title="css:"></a>css:</h2><pre><code>.join-item  .join-item:hover  .response  .response:hover  
+教师个人中心 excel_span excel_input excel_select
 </code></pre><h2 id="html"><a href="#html" class="headerlink" title="html:"></a>html:</h2><pre><code>添加ChangeInfo面板
 修改ChangePassword部分
 回复通知按钮 btn-success
-</code></pre><h1 id="学生、教师、领导-首页修改部分"><a href="#学生、教师、领导-首页修改部分" class="headerlink" title="学生、教师、领导 首页修改部分"></a>学生、教师、领导 首页修改部分</h1><h2 id="css-1"><a href="#css-1" class="headerlink" title="css:"></a>css:</h2><pre><code>.head  .form_datetime
+教师个人中心新增年终报表
+BOSS个人中心查看业务更改
+</code></pre><h1 id="学生、教师、领导-首页修改部分"><a href="#学生、教师、领导-首页修改部分" class="headerlink" title="学生、教师、领导 首页修改部分"></a>学生、教师、领导 首页修改部分</h1><h2 id="css-1"><a href="#css-1" class="headerlink" title="css:"></a>css:</h2><pre><code>.head  .form_datetime 
 </code></pre><h2 id="html-1"><a href="#html-1" class="headerlink" title="html:"></a>html:</h2><pre><code>script: datetimepicker内容修改
 发布活动的时间部分
 发布活动新增选择学院和类别
+内容详情
+</code></pre><h1 id="学生、教师、领导-详情修改部分"><a href="#学生、教师、领导-详情修改部分" class="headerlink" title="学生、教师、领导 详情修改部分"></a>学生、教师、领导 详情修改部分</h1><h2 id="css-2"><a href="#css-2" class="headerlink" title="css:"></a>css:</h2><h2 id="html-2"><a href="#html-2" class="headerlink" title="html:"></a>html:</h2><pre><code>详情时间部分
 </code></pre>]]></content>
     </entry>
     
