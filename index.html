@@ -261,6 +261,106 @@
             
               
                 
+                <a class="post-title-link" href="/2016/09/28/react入门/" itemprop="url">
+                  react入门
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-09-28T12:24:25+08:00" content="2016-09-28">
+              2016-09-28
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/09/28/react入门/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/28/react入门/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2016/09/20/关于web自适应手机端meta标签/" itemprop="url">
                   关于webApp自适应手机端meta标签
                 </a>
@@ -583,7 +683,7 @@ BOSS个人中心查看业务更改
               
                 
                 <a class="post-title-link" href="/2016/09/13/第一周-计算机网络概述/" itemprop="url">
-                  第一周-计算机网络概述
+                  第一周-计算机网络概述（上）
                 </a>
               
             
@@ -646,7 +746,15 @@ BOSS个人中心查看业务更改
 <h3 id="Internet结构：网络之网络"><a href="#Internet结构：网络之网络" class="headerlink" title="Internet结构：网络之网络"></a>Internet结构：网络之网络</h3><p>1.端系统通过<strong>接入ISP</strong>链接到Internet<br>2.接入ISP必须进一步互连<br>3.构成复杂的网络互连的网络<br>4.当前不能对Internet给出精确描述</p>
 <h2 id="数据交换"><a href="#数据交换" class="headerlink" title="数据交换"></a>数据交换</h2><p>数据交换的类型：<br>1.电路交换：电话网络等<br>    三个阶段：建立连接 通信  释放连接<br>    最大性质：独占资源<br>    多路复用：共享电路交换中的中继线</p>
 <p><strong>多路复用</strong>：<br>链路/网络资源划分为“资源片”<br>把资源片分配给各路请求<br>每路呼叫<strong>独占</strong>分配到的资源片进行用心<br>资源片可能<strong>闲置（无共享）</strong></p>
-<p><strong>典型多路复用方法</strong>：<br>1.频分多路复用（FDM）：频率进行划分<br>2.时分多路复用（TDM）: 将时间划分为一段段等长的<strong>时分复用帧</strong>每个用户在每个EDM帧中占用固定序号的时隙，每个用户占用的时隙是<strong>周期性</strong>出现的<br>3.波分多路复用（WDM）：光的频分复用<br>4.码分多路复用（CDM）：每个用户分配一个唯一的m bit的<strong>码片序列</strong> <strong>0表示-1  1表示+1</strong> 用户使用<strong>想用频率</strong>载波利用各自码片序列编码数据  <strong>编码信号</strong>=原始数据X码片序列</p>
+<p><strong>典型多路复用方法</strong>：<br>频分多路复用（FDM）：频率进行划分</p>
+<p>时分多路复用（TDM）: 将时间划分为一段段等长的<strong>时分复用帧</strong>每个用户在每个EDM帧中占用固定序号的时隙，每个用户占用的时隙是<strong>周期性</strong>出现的</p>
+<p>波分多路复用（WDM）：光的频分复用</p>
+<p>码分多路复用（CDM）：<br>每个用户分配一个唯一的m bit的<strong>码片序列</strong><br>一般用0代表-1 1代表+1<br>用户使用<strong>相同频率</strong>载波利用各自码片序列编码数据<br><strong>编码信号</strong>=原始数据X码片序列<br>各个用户码片序列相互<strong>正交</strong> ：自己和自己的正码相交一定是1 和别的得到0<br>  自己和自己的反码相交一定是-1 和别的得到0<br>想要得到其他用户的信息，需要解码。<br><strong>解码</strong>：码片序列于编码信号的内积</p>
+<p>2.报文交换<br><strong>报文</strong>：源（应用）发送信息整体，比如一个文件<br>报文交换和分组交换都是以存储-转发的方式进行交换。<br>报文交换是完整的<strong>报文</strong>，分组交换是<strong>分组</strong>交换</p>
+<p>3.分组交换<br>把报文进行拆分，成为一系列相对较小的数据包。在这些数据前面加上一些信息（头），作为一个小的分组。</p>
+<p>分组交换需要报文的<strong>拆分</strong>与<strong>重组</strong>，这样会产生额外的开销。</p>
+<p>4.分组交换和报文交换的优劣<br>L bits/分组  传速速率R/bps的链路上传输<br>分组传输的延迟： Delay = L/R<br>报文交换可以理解为是串行传输<br>分组交换是并行传输<br>例子：<br>报文M bits  链路带宽（传输速率） R bps<br>分组大小 L bits  路由器数 n<br>跳步数（一个链路称为一个跳步） h<br><strong>结论</strong>：<br>分组交换时间：T= M/R +(h-1)L/R = M/R+nL/R<br>报文交换时间：T= hM/R<br><strong>∴</strong> 分组交换比报文交换要好，应用也更广。</p>
+<p>5.分组交换和电路交换的优劣<br>电路交换：多路复用技术<br>分组交换：统计复用技术<br>1Mb/s链路 每个用户 活动时候需要100kb/s 平均时间10%<br>所以电路交换最多支持10个用户 而分组交换对于35个用户来说，大于10个用户同时活动的概率不足0.0004，所以分组交换允许更多用户同时使用网络，网络资源充分得到共享。<br><strong>∴</strong>分组交换使用于<strong>突发</strong>数据传输网络，因为他简单、无需建立呼叫、充分共享资源。但是不能简单的说分组交换绝对优于电路交换，因为分组交换可能产生<strong>网络堵塞</strong>：<strong>分组延迟和丢失</strong>，需要协议处理可靠数据传输和堵塞控制。</p>
 
           
         
@@ -825,7 +933,7 @@ BOSS个人中心查看业务更改
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-count">6</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
